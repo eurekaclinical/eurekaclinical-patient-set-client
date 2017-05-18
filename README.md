@@ -4,8 +4,8 @@
 ## What does it do?
 It is a library for accessing an implementation of Eureka! Clinical's RESTful APIs for patient set management from Java applications. It provides two REST API clients:
 
-* EurekaClinicalUserAgreementClient.java: for web clients to call a patient set service's REST APIs via a Eureka! Clinical proxy.
-* EurekaClinicalUserAgreementProxyClient.java: for Java applications to call a patient set service's REST APIs directly.
+* EurekaClinicalPatientSetClient.java: for web clients to call a patient set service's REST APIs via a Eureka! Clinical proxy.
+* EurekaClinicalPatientSetProxyClient.java: for Java applications to call a patient set service's REST APIs directly.
 
 ## Version 1.0 development series
 Latest release: [![Latest release](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical/eurekaclinical-patient-set-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical//eurekaclinical-patient-set-client)
