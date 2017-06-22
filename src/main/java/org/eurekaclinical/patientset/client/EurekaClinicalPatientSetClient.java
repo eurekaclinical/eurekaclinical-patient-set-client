@@ -22,8 +22,8 @@ package org.eurekaclinical.patientset.client;
 
 import java.io.InputStream;
 import java.net.URI;
+import org.eurekaclinical.common.comm.clients.AuthorizingEurekaClinicalClient;
 import org.eurekaclinical.common.comm.clients.ClientException;
-import org.eurekaclinical.common.comm.clients.EurekaClinicalClient;
 import org.eurekaclinical.patientset.client.comm.PatientSet;
 
 /**
@@ -31,17 +31,17 @@ import org.eurekaclinical.patientset.client.comm.PatientSet;
  * 
  * @author Andrew Post
  */
-public final class EurekaClinicalPatientSetClient extends EurekaClinicalClient {
+public final class EurekaClinicalPatientSetClient extends AuthorizingEurekaClinicalClient {
 
-    private final String serviceUrl;
+    private final URI serviceUrl;
 
     public EurekaClinicalPatientSetClient(String inServiceUrl) {
         super(null);
-        this.serviceUrl = inServiceUrl;
+        this.serviceUrl = URI.create(inServiceUrl);
     }
 
     @Override
-    protected String getResourceUrl() {
+    protected URI getResourceUrl() {
         return this.serviceUrl;
     }
     
