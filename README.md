@@ -9,6 +9,9 @@ It is a library for accessing an implementation of Eureka! Clinical's RESTful AP
 
 Latest release: [![Latest release](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical/eurekaclinical-patient-set-client/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eurekaclinical//eurekaclinical-patient-set-client)
 
+## Version 2.0
+Updated dependencies.
+
 ## Version 1.1
 Updated dependencies.
 
