@@ -31,6 +31,7 @@
     
     <properties>
         <eurekaclinical-common-version>5.1-Alpha-1-SNAPSHOT</eurekaclinical-common-version>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 	
     <build>
